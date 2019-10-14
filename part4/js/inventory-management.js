@@ -8,14 +8,13 @@ function view(inventory) {
                     '$' + parseFloat(inventory[i][3])
                     );
     }
-    console.log('');
 }
 
 function update(inventory) {
     'use strict';
 
-    var sku = Number(prompt("Enter the SKU number: "));
-    if (sku < 1) {
+    var sku = parseInt(prompt("Enter the SKU number: "));
+    if (sku < 0 ||  Number.isNaN(sku)) {
         alert("Invalid SKU number!");
     } else {
         var quantity = parseInt(prompt("Enter new quantity: "));
@@ -44,6 +43,10 @@ function main() {
         [8907, 'Shoes', 11, 70.00],
         [3456, 'Cardigan', 25, 125.99]
     ];
+
+    window.console.log("Welcome to The Product Inventory Management System");
+    window.console.log("");
+    window.console.log("Enter Command show/update/exit:");
 
     while (true) {
         command = window.prompt("Enter command (show/update/exit):");

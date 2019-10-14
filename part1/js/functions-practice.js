@@ -4,7 +4,7 @@ function halfNumber(number) {
     console.log("Half of " + number +" is " + halfno)
     return halfno
   }
-  halfNumber(4);
+  //halfNumber(4);
 
 //STEP 2
 function squareNumber(number) {
@@ -12,7 +12,7 @@ function squareNumber(number) {
     console.log("The result of squaring the number " + number +" is " + sqno);
     return sqno;
   }
-  squareNumber(3);
+  //squareNumber(3);
 
 //STEP 3
 function percentOf(no1, no2) {
@@ -20,7 +20,7 @@ function percentOf(no1, no2) {
     console.log(no1 +" is " + per + "% of " + no2);
     return per;
   }
-  percentOf(2, 4);
+  //percentOf(2, 4);
   
   //STEP 4
   function findModulus(no1, no2){
@@ -28,7 +28,7 @@ function percentOf(no1, no2) {
     console.log(mods +" is the modulus of " + no1 + " and " + no2);
     return mods;
   }
-  findModulus(4, 10);
+  //findModulus(4, 10);
   
   //STEP 5
   function sum(amount)
@@ -49,5 +49,5 @@ function percentOf(no1, no2) {
       }
 
     }
-    sum(3);
+    //sum(3);
   
